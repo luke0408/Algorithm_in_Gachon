@@ -91,3 +91,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# bulid folder
+build/
+output/
