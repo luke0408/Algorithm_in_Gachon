@@ -95,3 +95,10 @@ dkms.conf
 # bulid folder
 build/
 output/
+
+#################
+#  [for CLion]  #
+#################
+*.iml
+.idea/
+*.ipr
