@@ -87,6 +87,7 @@ void cell_swap(cell* a, cell* b) {
   b = t;
 }
 
+// get cost
 cell get_cost(cell* a, cell* b) {
   cell ret = {0};
   int i, j;
