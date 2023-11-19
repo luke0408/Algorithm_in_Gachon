@@ -20,7 +20,7 @@ puzzle = np.asarray(
   ]
 )
 
-# Set-up
+# Set-up 
 n = 3
 G = nx.sudoku_graph(n)
 number_set = set(range(1, n * n + 1))
