@@ -193,22 +193,3 @@ class SudokuConnections:
                 matrix[rows][cols] = count
                 count += 1
         return matrix
-
-
-"""
-TESTING
-"""
-
-
-def test_connections():
-    sudoku = SudokuConnections()
-    sudoku.connectEdges()
-    print("All node Ids : ")
-    print(sudoku.graph.getAllNodesIds())
-    print()
-    for idx in sudoku.graph.getAllNodesIds():
-        print(idx, "Connected to->", sudoku.graph.allNodes[idx].getConnections())
-
-
-if __name__ == "__main__":
-    test_connections()

@@ -86,14 +86,6 @@ class SudokuBoard:
                     print(f"{self.board[i][j]} ", end="")
         print("  - - - - - - - - - - - - - - ")
 
-    def is_Blank(self):
-
-        for row in range(len(self.board)):
-            for col in range(len(self.board[row])):
-                if self.board[row][col] == 0:
-                    return (row, col)
-        return None
-
     def graphColoringInitializeColor(self):
         """
         fill the already given colors
